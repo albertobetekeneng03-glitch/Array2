@@ -1,0 +1,79 @@
+# Array2
+JAWABAN PERTANYAAN PERCOBAAN
+A.PERCOBAAN 1
+1. Apakah pengisian elemen array harus dilakukan secara berurutan mulai dari indeks
+ke-0? Jelaskan!
+karna jika todak diisi secara berurutan maka akan ada index yang tidak terisi sehingga
+akan bernilai null pada index tersebut.
+2. Mengapa terdapat null pada daftar nama penonton?
+karna pada array penonton terdapat elemen yang belum diisi sehingga bernilai null
+3. Lengkapi daftar penonton pada langkah ke-4 sebagai berikut
+sudah
+4. Tambahkan kode program sebagai berikut:
+Jelaskan fungsi dari penonton.length dan penonton[0].length!
+Apakah penonton[0].length, penonton[1].length, penonton[2].length, dan
+penonton[3].length memiliki nilai yang sama? Mengapa?
+penonton.length berfungsi untuk mengetahui jumlah baris pada array penonton
+sedangkan penonton[0].length berfungsi untuk mengetahui jumlah kolom pada baris
+5. Modifikasi kode program pada pertanyaan 4 untuk menampilkan panjang setiap baris
+pada array menggunakan for loop. Compile, run, lalu amati hasilnya.
+sudah, dan runnya berjalan dengan baik
+6. Modifikasi kode program pada pertanyaan 5 untuk menampilkan panjang setiap baris
+pada array menggunakan foreach loop. Compile, run, lalu amati hasilnya.
+sudah, dan runnya berjalan dengan baik
+7. Tambahkan kode program untuk menampilkan nama penonton pada baris ke-3
+menggunakan for loop. Compile, run, lalu amati hasilnya.
+sudah, dan runnya berjalan dengan baik
+8. Modifikasi kode program pada pertanyaan 7 menjadi perulangan dengan foreach
+loop. Compile, run, lalu lakukan amati hasilnya.
+sudah, dan runnya berjalan dengan baik
+9. Modifikasi kembali kode program pada langkah 11 untuk menampilkan nama
+penonton untuk setiap baris. Compile dan run program kemudian amati hasilnya.
+sudah, dan runnya berjalan dengan baik
+10. Menurut Anda, apa kekurangan dan kelebihan foreach loop dibandingkan dengan for
+loop?
+kelbihannya foreach loop lebih singkat dan mudah dibaca sedangkan kekurangannya tidak bisa digunakan untuk memodifikasi elemen array
+11. Berapa indeks baris maksimal untuk array penonton?
+maksimalnnya 3 (karna index dimulai dari 0)
+12. Berapa indeks kolom maksimal untuk array penonton?
+maksimalnya 4 (karna index dimulai dari 0)
+13. Apa fungsi dari String.join()?
+menggabungkan elemen array menjadi satu string dengan pemisah tertentu
+
+B.PERCOBAAN 2
+1. Apakah pengisian elemen array dari scanner harus dilakukan secara berurutan mulai
+dari indeks ke-0? Jelaskan!
+Tidak harus, namun jika tidak diisi secara berurutan maka akan ada index yang tidak terisi sehingga akan bernilai null pada index tersebut.
+2. Modifikasi kode program untuk memberikan opsi menu sebagai berikut:
+- Menu 1: Input data penonton
+- Menu 2: Tampilkan daftar penonton
+- Menu 3: Exit
+sudah
+3. Modifikasi kode program untuk menghandle apabila nomor baris/kolom kursi yang
+tidak tersedia
+sudah dimodifikasi
+4. Pada menu 1, modifikasi kode program untuk memberikan warning apabila kursi yang
+dipilih sudah terisi oleh penonton lainnya lalu munculkan perintah untuk memasukkan
+baris dan kolom kembali
+sudah dimodifikasi
+5. Pada menu 2, jika kursi kosong, ganti null dengan ***
+sudah dimodifikasi
+
+C.PERCOBAAN 3
+1. Tambahkan kode program sebagai berikut
+sudah
+2. Apa fungsi dari Arrays.toString()?
+mengubah array menjadi string yang dapat dibaca
+3. Apa nilai default untuk elemen pada array dengan tipe data int?
+nilai defaultnya adalah 0
+4. Tambahkan kode program berikut
+sudah
+5. Array myNumbers memiliki length berbeda untuk setiap barisnya. Apakah panjang
+array dapat dimodifikasi setelah diinstansiasi?
+Tidak, panjang array tidak dapat dimodifikasi setelah diinstansiasi. Namun, kita dapat membuat array baru dengan panjang
+
+D.PERCOBAAN 4
+1. Bagaimana jika terdapat perubahan jumlah siswa dan jumlah mata kuliah? Modifikasi
+kode program SIAKAD untuk mengakomodasi jumlah siswa dan jumlah mata kuliah
+yang dinamis.
+jika terdapat perubahan jumlah siswa dan mata kuliah, kita dapat menggunakan ArrayList atau List untuk menyimpan data siswa dan mata kuliah sehingga dapat menyesuaikan dengan jumlah yang dinamis.
